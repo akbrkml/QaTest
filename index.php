@@ -29,7 +29,7 @@ $app->add(function ($req, $res, $next) {
 
 
 /* *
- * URL: https://localhost/api-cluster/login
+ * URL: https://localhost/api-cluster/index.php/login
  * Parameters: email, password
  * Method: POST
  * */
@@ -64,7 +64,7 @@ $app->post('/login', function($request, $response, $args) use($app, $db){
 
 
 /* *
- * URL: https://app.paud-dikmas.kemdikbud.go.id/intern/api-paud/pictures
+ * URL: https://localhost/api-cluster/index.php/tagihan/id_user
  * Parameters: none
  * Method: GET
  * */
